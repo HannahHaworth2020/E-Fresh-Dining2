@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">E-Fresh Dining</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="button_order">Order Online</string>
+    <string name="button_contact">Contact Us</string>
+    <string name="button_submit">Submit</string>
+    <string name="button_submitOrder">Submit Order</string>
+
+    <string name="textView_description">With Passion For Real, Good Food on the go.</string>
+
+    <string name="textView_menu">Menu</string>
+    <string name="textView_pork_tenderloin">Pork Tenderloin</string>
+    <string name="textView_tenderloinDes">A very thinly sliced piece of pork made to perfection.</string>
+    <string name="textView_roastbeef">Roast Beef</string>
+    <string name="textView_roastbeefDes">A hearty piece of roast beef on a sandwich or served by itself with vegetables.</string>
+    <string name="textView_salmon">Salmon</string>
+    <string name="textView_salmonDes">Raw or cooked and garnished with zucchini and tomatoes.</string>
+    <string name="textView_icecream">Ice Cream</string>
+    <string name="textView_icecreamDes">Freshly made strawberry ice cream with cut strawberries on top.</string>
+    <string name="textView_sushi">Sushi</string>
+    <string name="textView_sushiDes">Freshly made sushi with your choice of fish rolled with vegetables and rice.</string>
+    <string name="textView_fettuccine">Fettuccine</string>
+    <string name="textView_tacos">Tacos</string>
+    <string name="textView_lasagna">Lasagna</string>
+    <string name="textView_burger">Burger and Fries</string>
+    <string name="textView_salad">Salad</string>
+    <string name="textView_cake">Cake</string>
+    <string name="textView_wrap">Wrap</string>
+    <string name="textView_pizza">Pizza</string>
+    <string name="textView_chicken">Chicken</string>
+    <string name="textView_oysters">Oysters</string>
+    <string name="textView_chinese">Chinese</string>
+
+    <string name="CheckBox_add">Add to cart</string>
+
+    <string name="textView_contact">Contact Us</string>
+    <string name="textView_phone">For any questions or concerns, you may also reach us at: 1-800-EFresh</string>
+    <string name="textView_email">Please leave your email and your questions below.</string>
+</resources>

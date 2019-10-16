@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MenuActivity">
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="92dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="88dp"
+        android:text="@string/CheckBox_add"
+        android:textColor="@color/colorText"
+        android:textSize="10dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_pork_tenderloin"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/textView_menu"
+        android:textColor="@color/colorText"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView_pork_tenderloin"
+        android:layout_width="109dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="88dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pork_tenderloin" />
+
+    <TextView
+        android:id="@+id/textView_pork_tenderloin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/textView_pork_tenderloin"
+        android:textColor="@color/colorText"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toEndOf="@+id/imageView_pork_tenderloin"
+        app:layout_constraintTop_toBottomOf="@+id/textView_menu" />
+
+    <ImageView
+        android:id="@+id/imageView_roastbeef"
+        android:layout_width="109dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_pork_tenderloin"
+        app:srcCompat="@drawable/roastbeef" />
+
+    <ImageView
+        android:id="@+id/imageView_salmon"
+        android:layout_width="109dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_roastbeef"
+        app:srcCompat="@drawable/salmon" />
+
+    <ImageView
+        android:id="@+id/imageView_icecream"
+        android:layout_width="109dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_salmon"
+        app:srcCompat="@drawable/icecream" />
+
+    <ImageView
+        android:id="@+id/imageView_sushi"
+        android:layout_width="109dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_icecream"
+        app:srcCompat="@drawable/sushi" />
+
+    <TextView
+        android:id="@+id/textView_roastbeef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="42dp"
+        android:text="@string/textView_roastbeef"
+        android:textColor="@color/colorText"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView_roastbeef"
+        app:layout_constraintTop_toBottomOf="@+id/textView_tenderloinDes" />
+
+    <TextView
+        android:id="@+id/textView_salmon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="19dp"
+        android:text="@string/textView_salmon"
+        android:textColor="@color/colorText"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView_salmon"
+        app:layout_constraintTop_toBottomOf="@+id/textView_roastbeefDes" />
+
+    <TextView
+        android:id="@+id/textView_icecream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="23dp"
+        android:text="@string/textView_icecream"
+        android:textColor="@color/colorText"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView_icecream"
+        app:layout_constraintTop_toBottomOf="@+id/textView_salmonDes" />
+
+    <TextView
+        android:id="@+id/textView_sushi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="92dp"
+        android:text="@string/textView_sushi"
+        android:textColor="@color/colorText"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView_sushi"
+        app:layout_constraintTop_toBottomOf="@+id/textView_icecream" />
+
+    <Button
+        android:id="@+id/button_submitOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:text="@string/button_submitOrder"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_sushiDes" />
+
+    <TextView
+        android:id="@+id/textView_tenderloinDes"
+        android:layout_width="186dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:text="@string/textView_tenderloinDes"
+        android:textColor="@color/colorText"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView_pork_tenderloin"
+        app:layout_constraintTop_toBottomOf="@+id/textView_pork_tenderloin" />
+
+    <TextView
+        android:id="@+id/textView_roastbeefDes"
+        android:layout_width="186dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
+        android:text="@string/textView_roastbeefDes"
+        android:textColor="@color/colorText"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView_roastbeef"
+        app:layout_constraintTop_toBottomOf="@+id/textView_roastbeef" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="92dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/CheckBox_add"
+        android:textColor="@color/colorText"
+        android:textSize="10dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_roastbeef"
+        app:layout_constraintTop_toBottomOf="@+id/textView_tenderloinDes" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="92dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/CheckBox_add"
+        android:textColor="@color/colorText"
+        android:textSize="10dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_sushi"
+        app:layout_constraintTop_toBottomOf="@+id/textView_icecreamDes" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="92dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/CheckBox_add"
+        android:textColor="@color/colorText"
+        android:textSize="10dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_icecream"
+        app:layout_constraintTop_toBottomOf="@+id/textView_salmonDes" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="92dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/CheckBox_add"
+        android:textColor="@color/colorText"
+        android:textSize="10dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_salmon"
+        app:layout_constraintTop_toBottomOf="@+id/textView_roastbeefDes" />
+
+    <TextView
+        android:id="@+id/textView_salmonDes"
+        android:layout_width="183dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="9dp"
+        android:text="@string/textView_salmonDes"
+        android:textColor="@color/colorText"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView_salmon"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
+
+    <TextView
+        android:id="@+id/textView_icecreamDes"
+        android:layout_width="188dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/textView_icecreamDes"
+        android:textColor="@color/colorText"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView_icecream"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox5" />
+
+    <TextView
+        android:id="@+id/textView_sushiDes"
+        android:layout_width="193dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/textView_sushiDes"
+        android:textColor="@color/colorText"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView_sushi"
+        app:layout_constraintTop_toBottomOf="@+id/textView_sushi" />
+
+</android.support.constraint.ConstraintLayout>
