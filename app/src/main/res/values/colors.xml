@@ -6,8 +6,8 @@
     <color name="colorAccent">#D81B60</color>
     <color name="colorText">#FFFDD0</color>
     <color name="colorBackground">#E6EBDE</color>
-    <color name="colorMenu">#000</color>
+    <color name="colorMenu">#000000</color>
     <color name="colorContact">#FFFFFF</color>
-    <color name="colorBox">#98989C</color>
+    <color name="colorBox">#B4B4C5</color>
 
 </resources>

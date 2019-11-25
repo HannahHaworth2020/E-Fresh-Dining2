@@ -63,4 +63,10 @@ implements View.OnClickListener {
                 break;
         }
     }
+
+    public void onClickOrder(View view) {
+    }
+
+    public void onClickContact(View view) {
+    }
 }

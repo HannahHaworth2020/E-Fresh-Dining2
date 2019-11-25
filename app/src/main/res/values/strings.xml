@@ -7,7 +7,7 @@
     <string name="button_submit">Submit</string>
     <string name="button_submitOrder">Submit Order</string>
 
-    <string name="textView_description">With Passion For Real, Good Food on the go.</string>
+    <string name="textView_description">Effiicently Fresh</string>
 
     <string name="textView_menu">Menu</string>
     <string name="textView_pork_tenderloin">Pork Tenderloin</string>
@@ -37,4 +37,46 @@
     <string name="textView_contact">Contact Us</string>
     <string name="textView_phone">For any questions or concerns, you may also reach us at: 1-800-EFresh</string>
     <string name="textView_email">Please leave your email and your questions below.</string>
+    <string name="card1foodTitle">Salmon with mixed grilled vegetables</string>
+    <string name="card1CalText">Calories:     495</string>
+    <string name="card1PriceText">Price:    $8.99</string>
+    <string name="entreeText">Entrée\'s</string>
+    <string name="card2foodTitle">Fresh Seaweed wrapped Sushi</string>
+    <string name="card2CalText">Calories:     471</string>
+    <string name="card3CalText">Calories:     420</string>
+    <string name="card4CalText">Calories:     350</string>
+    <string name="card5CalText">Calories:     435</string>
+    <string name="card6CalText">Calories:     273</string>
+    <string name="card7CalText">Calories:     350</string>
+    <string name="card8CalText">Calories:     320</string>
+    <string name="card9CalText">Calories:     680</string>
+    <string name="card10CalText">Calories:    490</string>
+    <string name="card3foodTitle">Grilled Chicken Fiesta Tacos </string>
+    <string name="card4foodTitle">Vegetable Pizza with a Crisp Cauliflower Crust </string>
+    <string name="card5foodTitle">Grilled Pepper Steak, grilled with fresh bell peppers </string>
+    <string name="card6foodTitle">Sesame Lemon Grilled Chicken </string>
+    <string name="card7foodTitle">Grilled Salmon with Lemon-Pepper Lentils </string>
+    <string name="card8foodTitle">Fresh Caught Oysters </string>
+    <string name="card9foodTitle">Chicken Parmesan with Tomato Basil Pasta </string>
+    <string name="card10foodTitle">Turkey Meatball Spaghetti with Spaghetti Squash Noodles</string>
+    <string name="sideText">Side Items</string>
+    <string name="card11CalText">Calories:    140</string>
+    <string name="card12CalText">Calories:    220</string>
+    <string name="card13CalText">Calories:    135</string>
+    <string name="card14CalText">Calories:    110</string>
+    <string name="card15CalText">Calories:    180</string>
+    <string name="card16CalText">Calories:    150</string>
+    <string name="card17CalText">Calories:    350</string>
+    <string name="card18CalText">Calories:    210</string>
+    <string name="card11foodTitle">Fresh Garden Salad </string>
+    <string name="card12foodTitle">Cheesy Cauliflower Rice </string>
+    <string name="card13foodTitle">Caesar Salad</string>
+    <string name="card14foodTitle">Steamed Vegetables</string>
+    <string name="card15foodTitle">Baked Sweet Potatoes Served with Butter</string>
+    <string name="sweetText">Sweet Treats</string>
+    <string name="card16foodTitle">Fruit Yogurt Parfait</string>
+    <string name="card17foodTitle">Mini Pumpkin Pie topped with  Sugar Free Whipped Cream</string>
+    <string name="card18foodTitle">Blueberry Coconut Ice Cream (Vegan)</string>
+    <string name="card2PriceText">Price:    $2.49</string>
+    <string name="card3PriceText">Price:    $3.99</string>
 </resources>
