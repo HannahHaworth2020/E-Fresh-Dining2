@@ -6,10 +6,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity
-implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements OnClickListener {
+
 
     // Variables
     private Button button_order;
@@ -27,6 +29,7 @@ implements View.OnClickListener {
         // Listeners for button clicks
         button_order.setOnClickListener(this);
         button_contact.setOnClickListener(this);
+
     }
 
     @Override
@@ -52,7 +55,7 @@ implements View.OnClickListener {
     }
 
     // Allows you to click on main activity buttons to open other pages.
-    @Override
+
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.button_order:
@@ -61,12 +64,14 @@ implements View.OnClickListener {
             case R.id.button_contact:
                 startActivity(new Intent(getApplicationContext(), ContactActivity.class));
                 break;
+
+
         }
     }
 
-    public void onClickOrder(View view) {
-    }
 
-    public void onClickContact(View view) {
+    @Override
+    public void onPointerCaptureChanged(boolean hasCapture) {
+
     }
 }

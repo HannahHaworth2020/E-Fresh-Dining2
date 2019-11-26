@@ -88,4 +88,7 @@
     <string name="addSideItemBtnText">Add Side Item</string>\
     <string name="addSweetTreatBtnText">Add Sweet Treat</string>
     <string name="cartBtnText">Go to cart</string>
+    <string name="emailTitleText">Email:</string>
+    <string name="questionTitleText">Questions or Concerns:</string>
+    <string name="home_page">Home Page</string>
 </resources>
