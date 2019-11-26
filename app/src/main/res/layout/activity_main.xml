@@ -7,24 +7,19 @@
     android:background="#64DD17"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView_description"
-        android:layout_width="238dp"
-        android:layout_height="119dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:gravity="center_horizontal"
-        android:text="@string/textView_description"
-        android:textColor="@color/colorMenu"
-        android:textSize="36sp"
-        android:textStyle="italic"
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fadingEdge="horizontal|vertical"
+        android:fadingEdgeLength="10dp"
+        android:filterTouchesWhenObscured="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.209"
+        app:srcCompat="@drawable/logo" />
 
     <Button
         android:id="@+id/button_order"
@@ -32,17 +27,20 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="62dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginBottom="240dp"
         android:background="@color/colorContact"
         android:onClick="onClickOrder"
         android:text="@string/button_order"
         android:textColor="@color/colorMenu"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_description" />
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button_contact"
@@ -54,12 +52,14 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:background="@color/colorContact"
+        android:gravity="center"
         android:onClick="onClickContact"
-        android:paddingBottom="15sp"
         android:text="@string/button_contact"
         android:textColor="@color/colorMenu"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_order" />
+        app:layout_constraintTop_toBottomOf="@+id/button_order"
+        app:layout_constraintVertical_bias="0.135" />
 </android.support.constraint.ConstraintLayout>

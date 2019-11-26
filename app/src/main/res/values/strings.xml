@@ -79,4 +79,13 @@
     <string name="card18foodTitle">Blueberry Coconut Ice Cream (Vegan)</string>
     <string name="card2PriceText">Price:    $2.49</string>
     <string name="card3PriceText">Price:    $3.99</string>
+    <string name="summaryTitleText">Order Summary</string>
+    <string name="subtotalTitleText">Subtotal:</string>
+    <string name="totalTitleText">Total:</string>
+    <string name="submitBtnText">Submit Order</string>
+    <string name="shoppingBtnText">Continue Shopping</string>
+    <string name="addEntreeBtnText">Add Entree</string>
+    <string name="addSideItemBtnText">Add Side Item</string>\
+    <string name="addSweetTreatBtnText">Add Sweet Treat</string>
+    <string name="cartBtnText">Go to cart</string>
 </resources>
