@@ -7,28 +7,19 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Button;
-import android.widget.Toast;
+
 
 public class MainActivity extends AppCompatActivity implements OnClickListener {
 
 
-    // Variables
-    private Button button_order;
-    private Button button_contact;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //References to widgets
-        button_order = (Button) findViewById(R.id.button_order);
-        button_contact = (Button) findViewById(R.id.button_contact);
 
-        // Listeners for button clicks
-        button_order.setOnClickListener(this);
-        button_contact.setOnClickListener(this);
 
     }
 
@@ -56,6 +47,14 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 
     // Allows you to click on main activity buttons to open other pages.
 
+    public void onClickOrder(View view) {
+        startActivity(new Intent(getApplicationContext(), MenuActivity.class));
+
+    }
+    public void onClickContact(View view) {
+        startActivity(new Intent(getApplicationContext(), ContactActivity.class));
+
+    }
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.button_order:

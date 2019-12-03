@@ -23,7 +23,8 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     public void onClickCartBtn(View view) {
-        setContentView(R.layout.summary_activity);
+        startActivity(new Intent(getApplicationContext(), SummaryActivity.class));
+
     }
 
 
@@ -121,7 +122,8 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     public void onClickHomeBtn(View view) {
-        setContentView(R.layout.activity_main);
+        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+
     }
 
 }
