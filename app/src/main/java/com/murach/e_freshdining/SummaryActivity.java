@@ -14,7 +14,7 @@ public class SummaryActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        setContentView(R.layout.summary_activity);
     }
 
     public void onClickSubmit(View view) {
