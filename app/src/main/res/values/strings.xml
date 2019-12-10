@@ -40,7 +40,7 @@
     <string name="card1foodTitle">Salmon with mixed grilled vegetables</string>
     <string name="card1CalText">Calories:     495</string>
     <string name="card1PriceText">Price:    $8.99</string>
-    <string name="entreeText">Entrée\'s</string>
+    <string name="entreeText">Entrées</string>
     <string name="card2foodTitle">Fresh Seaweed wrapped Sushi</string>
     <string name="card2CalText">Calories:     471</string>
     <string name="card3CalText">Calories:     420</string>
@@ -91,4 +91,9 @@
     <string name="emailTitleText">Email:</string>
     <string name="questionTitleText">Questions or Concerns:</string>
     <string name="home_page">Home Page</string>
+    <string name="Main_menu_title_text">Main Menu</string>
+    <string name="entreeMenuBtnText">Entree Menu</string>
+    <string name="sideMenuBtnText">Side Items</string>
+    <string name="sweetMenuBtnText">Sweet Treat Menu</string>
+    <string name="homepagebtntext">Home Page</string>
 </resources>

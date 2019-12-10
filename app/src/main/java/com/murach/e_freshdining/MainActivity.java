@@ -9,8 +9,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 
 
-public class MainActivity extends AppCompatActivity implements OnClickListener {
-
+public class MainActivity extends AppCompatActivity {
 
 
 
@@ -18,8 +17,6 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
 
     }
 
@@ -55,19 +52,6 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         startActivity(new Intent(getApplicationContext(), ContactActivity.class));
 
     }
-    public void onClick(View view) {
-        switch (view.getId()) {
-            case R.id.button_order:
-                startActivity(new Intent(getApplicationContext(), MenuActivity.class));
-                break;
-            case R.id.button_contact:
-                startActivity(new Intent(getApplicationContext(), ContactActivity.class));
-                break;
-
-
-        }
-    }
-
 
     @Override
     public void onPointerCaptureChanged(boolean hasCapture) {
