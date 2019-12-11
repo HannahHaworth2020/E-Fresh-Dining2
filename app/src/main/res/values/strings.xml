@@ -39,7 +39,7 @@
     <string name="textView_email">Please leave your email and your questions below.</string>
     <string name="card1foodTitle">Salmon with mixed grilled vegetables</string>
     <string name="card1CalText">Calories:     495</string>
-    <string name="card1PriceText">Price:    $8.99</string>
+    <string name="card1PriceText">Price Per Serving:    $8.99</string>
     <string name="entreeText">Entrées</string>
     <string name="card2foodTitle">Fresh Seaweed wrapped Sushi</string>
     <string name="card2CalText">Calories:     471</string>
@@ -77,8 +77,8 @@
     <string name="card16foodTitle">Fruit Yogurt Parfait</string>
     <string name="card17foodTitle">Mini Pumpkin Pie topped with  Sugar Free Whipped Cream</string>
     <string name="card18foodTitle">Blueberry Coconut Ice Cream (Vegan)</string>
-    <string name="card2PriceText">Price:    $2.49</string>
-    <string name="card3PriceText">Price:    $3.99</string>
+    <string name="card2PriceText">Price Per Serving:    $2.49</string>
+    <string name="card3PriceText">Price Per Serving:    $3.99</string>
     <string name="summaryTitleText">Order Summary</string>
     <string name="subtotalTitleText">Subtotal:</string>
     <string name="totalTitleText">Total:</string>
@@ -93,7 +93,8 @@
     <string name="home_page">Home Page</string>
     <string name="Main_menu_title_text">Main Menu</string>
     <string name="entreeMenuBtnText">Entree Menu</string>
-    <string name="sideMenuBtnText">Side Items</string>
+    <string name="sideMenuBtnText">Side Item Menu</string>
     <string name="sweetMenuBtnText">Sweet Treat Menu</string>
     <string name="homepagebtntext">Home Page</string>
+
 </resources>

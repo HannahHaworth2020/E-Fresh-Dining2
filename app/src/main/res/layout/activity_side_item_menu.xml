@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#64DD17">
@@ -20,18 +22,44 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1"
                 android:textColor="@color/colorMenu"
                 android:textStyle="bold" />
+            <Button
+                android:id="@+id/cartBtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorContact"
+                android:onClick="onClickSideCartBtn"
+                android:text="@string/cartBtnText"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/colorMenu" />
+
+            <Button
+                android:id="@+id/homePageBtn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorContact"
+                android:onClick="onClickSideHomeBtn"
+                android:text="Main Menu"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/colorMenu" />
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20sp"
                 android:layout_marginTop="25sp"
-                android:layout_marginRight="20sp">
+                android:layout_marginRight="20sp"
+                app:cardCornerRadius="60sp"
+                app:cardElevation="40sp">
 
                 <include
                     layout="@layout/card11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:filterTouchesWhenObscured="true"
                     android:paddingLeft="20dp"
                     android:paddingRight="20dp" />
                 <Button
@@ -53,7 +81,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20sp"
                 android:layout_marginTop="25sp"
-                android:layout_marginRight="20sp">
+                android:layout_marginRight="20sp"
+                app:cardCornerRadius="60sp"
+                app:cardElevation="40sp">
 
                 <include
                     layout="@layout/card12"
@@ -80,7 +110,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20sp"
                 android:layout_marginTop="25sp"
-                android:layout_marginRight="20sp">
+                android:layout_marginRight="20sp"
+                app:cardCornerRadius="60sp"
+                app:cardElevation="40sp">
 
                 <include
                     layout="@layout/card13"
@@ -107,7 +139,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20sp"
                 android:layout_marginTop="25sp"
-                android:layout_marginRight="20sp">
+                android:layout_marginRight="20sp"
+                app:cardCornerRadius="60sp"
+                app:cardElevation="40sp">
 
                 <include
                     layout="@layout/card14"
@@ -134,7 +168,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20sp"
                 android:layout_marginTop="25sp"
-                android:layout_marginRight="20sp">
+                android:layout_marginRight="20sp"
+                app:cardCornerRadius="60sp"
+                app:cardElevation="40sp">
 
                 <include
                     layout="@layout/card15"
@@ -156,28 +192,7 @@
                     android:textColor="@color/colorMenu" />
             </android.support.v7.widget.CardView>
 
-            <Button
-                android:id="@+id/cartBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom|center_horizontal"
-                android:layout_marginTop="20dp"
-                android:background="@color/colorContact"
-                android:onClick="onClickCartBtn"
-                android:text="@string/cartBtnText"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                android:textColor="@color/colorMenu" />
-            <Button
-                android:id="@+id/homePageBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom|center_horizontal"
-                android:layout_marginTop="20dp"
-                android:background="@color/colorContact"
-                android:onClick="onClickHomeBtn"
-                android:text="Main Menu"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                android:textColor="@color/colorMenu" />
+
         </LinearLayout>
 
 
